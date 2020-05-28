@@ -1,5 +1,6 @@
-<script src="https://static.engineering.publicissapient.fr/consent/plugins/training/tarteaucitron.js?version=1.0"></script>
-<script>
+to insert in the <header> section
+<script type="text/javascript" src="https://static.engineering.publicissapient.fr/consent/plugins/training/tarteaucitron.js?version=1.0"></script>
+<script type="text/javascript">
 tarteaucitron.init({
     "hashtag": "#tarteaucitron", /* Ouverture automatique du panel avec le hashtag */
     "cookieName": "tarteaucitron", /* Cookie name */
@@ -18,3 +19,11 @@ tarteaucitron.init({
     "mandatory": false /* Show a message about mandatory cookies */
 });
 </script>
+
+to insert in the <body> section
+		<script type="text/javascript">
+        tarteaucitron.user.googletagmanagerId = 'GTM-WP6H2D4';
+        (tarteaucitron.job = tarteaucitron.job || []).push('googletagmanager');
+        </script>
+    </body>
+</html>
