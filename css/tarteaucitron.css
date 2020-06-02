@@ -295,6 +295,7 @@ div#tarteaucitronServices {
 #tarteaucitron #tarteaucitronServices .tarteaucitronHidden {
     display: none;
     position: relative;
+    background: #dcdcdc;
 }
 
 #tarteaucitronCookiesList .tarteaucitronH3.tarteaucitronTitle {
@@ -387,7 +388,7 @@ div#tarteaucitronServices {
 }
 
 #tarteaucitron #tarteaucitronServices .tarteaucitronMainLine:hover {
-    background: #333;
+    background: #000000;
 }
 
 #tarteaucitron #tarteaucitronServices .tarteaucitronMainLine .tarteaucitronName {
