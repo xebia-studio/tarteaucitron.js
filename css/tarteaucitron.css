@@ -147,7 +147,7 @@ div#tarteaucitronServices {
 }
 
 #tarteaucitronRoot button#tarteaucitronBack {
-    background: transparent;
+    background: rgba(0,0,0,0.4);
 }
 
 #tarteaucitron .clear {
@@ -454,7 +454,8 @@ div#tarteaucitronServices {
 }
 
 #tarteaucitron #tarteaucitronServices #tarteaucitronAllAllowed.tarteaucitronIsSelected {
-    background-color: #FE414D;
+    background-color: #00E6C3;
+    color : #000000;
     opacity: 1;
 }
 #tarteaucitron #tarteaucitronServices #tarteaucitronAllDenied.tarteaucitronIsSelected {
@@ -463,7 +464,8 @@ div#tarteaucitronServices {
 }
 
 #tarteaucitron #tarteaucitronServices .tarteaucitronLine.tarteaucitronIsAllowed .tarteaucitronAllow {
-    background-color: #4d4d4d;
+    background-color: #00E6C3;
+    color : #000000;
 }
 #tarteaucitron #tarteaucitronServices .tarteaucitronLine.tarteaucitronIsDenied .tarteaucitronDeny {
     background-color: #FE414D;
@@ -520,6 +522,8 @@ div#tarteaucitronServices {
     font: 15px verdana;
     color: #fff;
     padding-right : 10px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 #tarteaucitronAlertBig #tarteaucitronDisclaimerAlert strong {
@@ -537,7 +541,7 @@ div#tarteaucitronServices {
 #tarteaucitron #tarteaucitronPrivacyUrl,
 #tarteaucitron #tarteaucitronPrivacyUrlDialog,
 #tarteaucitronRoot .tarteaucitronDeny {
-    background: #4d4d4d !important;
+    background: #4d4d4d;
     color: #fff;
     cursor: pointer;
     display: inline-block;
@@ -548,13 +552,22 @@ div#tarteaucitronServices {
     margin-left: 7px;
 }
 
+#tarteaucitronAlertBig #tarteaucitronCloseAlert:hover,
+#tarteaucitronAlertBig #tarteaucitronPersonalize:hover,
+.tarteaucitronCTAButton:hover,
+#tarteaucitron #tarteaucitronPrivacyUrl:hover,
+#tarteaucitron #tarteaucitronPrivacyUrlDialog:hover,
+#tarteaucitronRoot .tarteaucitronDeny:hover {
+    background: #FE414D;
+}
+
 #tarteaucitronRoot .tarteaucitronDeny {
     background: #9C1A1A;
 }
 
 #tarteaucitronAlertBig #tarteaucitronCloseAlert, #tarteaucitron #tarteaucitronPrivacyUrl, #tarteaucitron #tarteaucitronPrivacyUrlDialog {
-    background: #4D4D4D !important;
-    color: #ffffff !important;
+    background: #4D4D4D;
+    color: #ffffff;
     font-size: 16px;
     margin-bottom: 3px;
     margin-left: 7px;
