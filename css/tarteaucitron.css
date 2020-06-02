@@ -204,7 +204,7 @@ div#tarteaucitronServices {
     box-sizing: initial;
     color: #333;
     font-family: sans-serif !important;
-    font-size: 14px;
+    font-size: 16px;
     line-height: normal;
     vertical-align: initial;
 }
@@ -311,7 +311,7 @@ div#tarteaucitronServices {
     font-size: 14px;
     font-weight: 700;
     margin: 20px 0px 0px;
-    padding: 5px 20px;
+    padding: 7px 20px;
     text-align: left;
     width: auto;
     background: #000000;
@@ -801,12 +801,12 @@ span.tarteaucitronTitle.tarteaucitronH3 {
     margin-top: 12px!important;
 }
 
-
-#tarteaucitronServicesTitle_api .tarteaucitronTitle>button{
+/*
+#tarteaucitronServicesTitle_api .tarteaucitronTitle button{
     background: #4d4d4d;
-    padding : 15px 20px;
+    padding : 7px 20px;
 
-}
+}*/
 
 .tarteaucitronSelfLink{
     display: none;
@@ -814,3 +814,4 @@ span.tarteaucitronTitle.tarteaucitronH3 {
 }
 
 #tarteaucitronServices .tarteaucitronBorder a.tarteaucitronSelfLink{ display : none;}
+
