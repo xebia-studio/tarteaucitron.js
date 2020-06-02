@@ -553,12 +553,12 @@ div#tarteaucitronServices {
 }
 
 #tarteaucitronAlertBig #tarteaucitronCloseAlert, #tarteaucitron #tarteaucitronPrivacyUrl, #tarteaucitron #tarteaucitronPrivacyUrlDialog {
-    background: #4D4D4D;
-    color: #ffffff;
+    background: #4D4D4D !important;
+    color: #ffffff !important;
     font-size: 16px;
     margin-bottom: 3px;
     margin-left: 7px;
-    padding: 10px 16px;
+    padding: 10px 16px !important;
 
 
 }
