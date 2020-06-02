@@ -388,7 +388,7 @@ div#tarteaucitronServices {
 }
 
 #tarteaucitron #tarteaucitronServices .tarteaucitronMainLine:hover {
-    background: #000000;
+    background: #000000 !important;
 }
 
 #tarteaucitron #tarteaucitronServices .tarteaucitronMainLine .tarteaucitronName {
