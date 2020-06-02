@@ -541,7 +541,7 @@ div#tarteaucitronServices {
     cursor: pointer;
     display: inline-block;
     font-size: 16px!important;
-    line-height: 1.2;
+    line-height: 20px;
     padding: 10px 15px;
     text-decoration: none;
     margin-left: 7px;
@@ -552,12 +552,14 @@ div#tarteaucitronServices {
 }
 
 #tarteaucitronAlertBig #tarteaucitronCloseAlert, #tarteaucitron #tarteaucitronPrivacyUrl, #tarteaucitron #tarteaucitronPrivacyUrlDialog {
-    background: #fff;
-    color: #333;
-    font-size: 13px;
+    background: #4D4D4D;
+    color: #ffffff;
+    font-size: 16px;
     margin-bottom: 3px;
     margin-left: 7px;
-    padding: 4px 10px;
+    padding: 10px 16px;
+
+
 }
 
 #tarteaucitronPercentage {
