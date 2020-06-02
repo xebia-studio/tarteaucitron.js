@@ -391,7 +391,7 @@ var tarteaucitron = {
                 } else {
                     html += '<div id="tarteaucitronAlertBig" class="tarteaucitronAlertBig' + orientation + '">';
                     //html += '<div class="tarteaucitronAlertBigWrapper">';
-                    html += '   <span id="tarteaucitronDisclaimerAlert">';
+                    html += '   <p id="tarteaucitronDisclaimerAlert">';
 
                     if (tarteaucitron.parameters.highPrivacy) {
                         html += '       ' + tarteaucitron.lang.alertBigPrivacy;
@@ -399,7 +399,7 @@ var tarteaucitron = {
                         html += '       ' + tarteaucitron.lang.alertBigClick + ' ' + tarteaucitron.lang.alertBig;
                     }
 
-                    html += '   </span>';
+                    html += '   </p>';
                     //html += '   <span class="tarteaucitronAlertBigBtnWrapper">';
                     html += '   <button type="button" id="tarteaucitronPersonalize" onclick="tarteaucitron.userInterface.respondAll(true);">';
                     html += '       &#10003; ' + tarteaucitron.lang.acceptAll;
