@@ -812,3 +812,5 @@ span.tarteaucitronTitle.tarteaucitronH3 {
     display: none;
 
 }
+
+#tarteaucitronServices .tarteaucitronBorder a.tarteaucitronSelfLink{ display : none;}
